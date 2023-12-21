@@ -2,7 +2,7 @@
   "build": {
     "beforeDevCommand": "trunk serve",
     "beforeBuildCommand": "trunk build",
-    "devPath": "http://192.168.5.74:1420",
+    "devPath": "https://ptechen.github.io/player/",
     "distDir": "../dist",
     "withGlobalTauri": true
   },
