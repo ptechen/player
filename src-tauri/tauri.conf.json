@@ -2,12 +2,12 @@
   "build": {
     "beforeDevCommand": "trunk serve",
     "beforeBuildCommand": "trunk build",
-    "devPath": "https://ptechen.github.io/player/",
+    "devPath": "http://localhost:1420",
     "distDir": "../dist",
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "app-test",
+    "productName": "player",
     "version": "0.0.0"
   },
   "tauri": {

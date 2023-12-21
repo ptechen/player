@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="284eac80-0360-47f4-908e-ab051709ace8" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/components/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/a.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/alert.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/card.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/dropdowns.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/event.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/input.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/li.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/lis.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/list_group.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/menu.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/navs.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/not_found.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/select.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/textarea.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/timestamp_interval.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/ul.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sign.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/add_wallet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/add_wallet.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/feedback.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/header.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/index.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/menu.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/request.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/room_list.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/timestamp.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trunk.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Trunk.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff_bg.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/public/tauri.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/public/yew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles-9dc2f689f0290d19.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff_bg.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/tauri.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/public/yew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/styles-9dc2f689f0290d19.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-tauri/tauri.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src-tauri/tauri.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1703139574" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="deploy" />
+                    <option name="lastUsedInstant" value="1703139573" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="9sumy966" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Zq84tfmpLSE1g84dBPKPoN5WhR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/taochen/RustroverProjects/player&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/statics" />
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="284eac80-0360-47f4-908e-ab051709ace8" name="Changes" comment="" />
+      <created>1703138061137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703138061137</updated>
+      <workItem from="1703138062221" duration="938000" />
+      <workItem from="1703139301790" duration="2386000" />
+      <workItem from="1703141991890" duration="11708000" />
+      <workItem from="1703163545494" duration="2151000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1703138534612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703138534612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+</project>

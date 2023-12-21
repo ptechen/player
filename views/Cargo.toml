@@ -1,0 +1,23 @@
+[package]
+name = "views"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { workspace = true, features = ["csr"] }
+components = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+gloo = { workspace = true }
+gloo-events = { workspace = true }
+gloo-net = { workspace = true, features = ["serde"] }
+gloo-storage = { workspace = true }
+once_cell = { workspace = true }
+chrono = { workspace = true }
+wasm-bindgen = { workspace = true, features = ["serde-serialize"] }
+web-sys = { workspace = true }
+wasm-bindgen-futures = {workspace = true}
+gloo-console = {workspace = true}
+tiny-bip39 = { workspace = true }

@@ -1,0 +1,16 @@
+[package]
+name = "components"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { workspace = true, features = ["csr"] }
+wasm-bindgen.workspace = true
+web-sys = { workspace = true, features = ["console", "Document", "Element", "Node", "Window", "HtmlSelectElement"] }
+gloo.workspace = true
+gloo-events.workspace = true
+chrono.workspace = true
+gloo-console.workspace = true
+stylist.workspace = true
