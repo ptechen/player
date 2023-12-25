@@ -28,7 +28,7 @@ pub fn Dropdowns(props: &DropdownsProps) -> Html {
             <ul class="dropdown-menu">
                 {
                     for props.ul.lis.iter().map(|item|{
-                        html!(<li><A onclick={&props.callback} class={"dropdown-item"} title={&item.title}/></li>)
+                        html!(<li><A onclick={&props.callback} class={""} title={&item.title}/></li>)
                     })
                 }
             </ul>

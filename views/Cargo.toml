@@ -21,3 +21,4 @@ web-sys = { workspace = true }
 wasm-bindgen-futures = {workspace = true}
 gloo-console = {workspace = true}
 tiny-bip39 = { workspace = true }
+yewdux = { workspace = true }

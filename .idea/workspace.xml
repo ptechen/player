@@ -8,55 +8,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="284eac80-0360-47f4-908e-ab051709ace8" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/components/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/a.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/alert.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/card.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/dropdowns.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/event.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/input.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/li.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/lis.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/list_group.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/menu.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/navs.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/not_found.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/select.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/textarea.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/timestamp_interval.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/src/ul.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sign.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/add_wallet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/add_wallet.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/feedback.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/header.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/index.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/menu.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/request.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/room_list.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/src/timestamp.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/src/button.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/create_wallet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/src/state.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trunk.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Trunk.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff_bg.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/public/tauri.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/public/yew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles-9dc2f689f0290d19.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/player-ui-74cb18ea80fb7ec166bff7ef6038193baa948988517c2c9fe7d9cc374726ea0fbe95bcaa2cbe12f461cdf573eb04fdff_bg.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/public/tauri.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/public/yew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/styles-9dc2f689f0290d19.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/src/a.rs" beforeDir="false" afterPath="$PROJECT_DIR$/components/src/a.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/src/dropdowns.rs" beforeDir="false" afterPath="$PROJECT_DIR$/components/src/dropdowns.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/components/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/src/textarea.rs" beforeDir="false" afterPath="$PROJECT_DIR$/components/src/textarea.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.stage/add_wallet-e83a44292e6e93b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.stage/public/tauri.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.stage/public/yew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.stage/statics/add_wallet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.stage/statics/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.stage/styles-badb24cf8075baa7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/add_wallet-e83a44292e6e93b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/player-ui-63e202862972fffac652dddaf1f950f2fdad8fa6e63c7c55de9ffc99c8cfc76278a260522d02e26018088f7c0ad87621.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/player-ui-63e202862972fffac652dddaf1f950f2fdad8fa6e63c7c55de9ffc99c8cfc76278a260522d02e26018088f7c0ad87621_bg.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/statics/add_wallet.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/statics/add_wallet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/statics/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/statics/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles-badb24cf8075baa7.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src-tauri/tauri.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src-tauri/tauri.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/add_wallet.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/add_wallet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/views/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/src/add_wallet.rs" beforeDir="false" afterPath="$PROJECT_DIR$/views/src/add_wallet.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/src/index.rs" beforeDir="false" afterPath="$PROJECT_DIR$/views/src/index.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/views/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/src/menu.rs" beforeDir="false" afterPath="$PROJECT_DIR$/views/src/menu.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Rust File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -113,21 +98,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/taochen/RustroverProjects/player&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/taochen/RustroverProjects/ptechen.github.io/components/src",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/statics" />
       <recent name="$PROJECT_DIR$/docs" />
@@ -148,6 +135,9 @@
       <workItem from="1703139301790" duration="2386000" />
       <workItem from="1703141991890" duration="11708000" />
       <workItem from="1703163545494" duration="2151000" />
+      <workItem from="1703169458254" duration="2810000" />
+      <workItem from="1703223046737" duration="37812000" />
+      <workItem from="1703335715690" duration="38267000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -177,5 +167,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/views/src/add_wallet.rs</url>
+          <line>235</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/views/src/add_wallet.rs</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,41 +1,47 @@
 use yew::prelude::*;
-use crate::{
-    menu::Menu,
-};
 use crate::add_wallet::AddWallet;
-use crate::room_list::RoomList;
 
 pub enum Msg {
-    Update(AttrValue)
+    Update(AttrValue),
+    AddWallet((AttrValue, AttrValue))
 }
 
 pub struct Index {
     pub content: Html,
+    pub phrase: AttrValue,
+    pub password: AttrValue,
 }
 
 impl Component for Index {
     type Message = Msg;
     type Properties = ();
 
-    fn create(_ctx: &Context<Self>) -> Self {
-        Self { content: html!(<AddWallet/>) }
+    fn create(ctx: &Context<Self>) -> Self {
+        let event = ctx.link().callback(|v|Msg::AddWallet(v));
+        Self { content: html!(<AddWallet {event}/>), phrase: Default::default(), password: Default::default() }
     }
 
-    fn update(&mut self, _ctx: &Context<Self>, msg: Self::Message) -> bool {
+    fn update(&mut self, ctx: &Context<Self>, msg: Self::Message) -> bool {
         match msg {
             Msg::Update(tag) => {
                 let tag = tag.to_string();
                 let tag = tag.as_str();
+                let event = ctx.link().callback(|v|Msg::AddWallet(v));
                 self.content = match tag {
-                    _ => { html!(<AddWallet/>) }
+                    _ => { html!(<AddWallet event={event}/>) }
                 };
+                true
+            }
+            Msg::AddWallet((phrase, password)) => {
+                self.phrase = phrase;
+                self.password = password;
+                self.content = html!(<h1>{&self.phrase}{&self.password}</h1>);
                 true
             }
         }
     }
 
     fn view(&self, ctx: &Context<Self>) -> Html {
-        let onchange = ctx.link().callback(Msg::Update);
         html!(
             <div class="menu">
                 <div class="menu-content">

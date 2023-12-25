@@ -1,23 +1,30 @@
-html {
-    font-size: 62.5%;
+:root {
+    font-size: 16px;
 }
 
-/*@media (max-width: 768px) {*/
-/*    html {*/
-/*        font-size: 56.25%; !* 9px *!*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 480px) {*/
-/*    html {*/
-/*        font-size: 62.5%; !* 8px *!*/
-/*    }*/
-/*}*/
-
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    box-sizing: content-box;
-    font-size: 1.4rem
 }
+
+html {
+    overflow: hidden;
+}
+
+body {
+    height: calc(100vh - env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top); /* 顶部安全区域 */
+    /*padding-bottom: env(safe-area-inset-bottom, 1rem); !* 底部安全区域 *!*/
+    font-family: Arial, sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+}
+
+/*!* Responsive Design *!*/
+/*@media (max-width: 600px) {*/
+/*    :root {*/
+/*        font-size: 14px; !* 1rem = 14px for smaller devices *!*/
+/*    }*/
+/*}*/

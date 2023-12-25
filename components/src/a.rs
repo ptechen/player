@@ -5,19 +5,19 @@ use wasm_bindgen::UnwrapThrowExt;
 
 #[derive(Clone, PartialEq, Properties)]
 pub struct AProps {
-    pub title: AttrValue,
     pub class: AttrValue,
+    pub title: AttrValue,
     pub onclick: Callback<AttrValue>,
 }
 
 #[function_component]
 pub fn A(props: &AProps) -> Html {
-    let AProps{title,class,  onclick} = props.clone();
+    let AProps{ class, title,  onclick } = props.clone();
     let onclick = Callback::from(move |event: MouseEvent| {
         onclick.emit(get_text(event));
     });
     html!(
-        <a class={class} {onclick} style={"text-decoration:none"}>{title}</a>
+        <a {class} {onclick} style={"text-decoration:none"}>{title}</a>
     )
 }
 

@@ -9,3 +9,4 @@ pub mod room_list;
 pub mod add_wallet;
 pub mod header;
 pub mod feedback;
+pub mod state;

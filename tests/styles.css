@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: env(safe-area-inset-top);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.instructions {
+    margin-bottom: 10px;
+}
+
+.mnemonic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mnemonic span {
+    display: block;
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+}
+
+.buttons button {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    /* Apply styles for screens with a minimum width of 768px */
+    .buttons {
+        flex-direction: row;
+    }
+
+    .buttons button {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+}
